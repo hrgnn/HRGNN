@@ -51,7 +51,7 @@ def main(args):
 
     # Model Initialization
     model = HRGNN(args, nfeat, nclass, device)
-    model.fit(features, adj, labels, idx_train, idx_val, idx_test)
+    model.fit(features, adj, labels, idx_train, idx_val, idx_test, args.epochs)
     acc_val = model.test(labels, idx_val)
     acc_test = model.test(labels, idx_test)
     
