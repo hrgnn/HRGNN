@@ -40,7 +40,7 @@ All the hyper-parameters settings are included in [`scripts`](https://github.com
 
 To reproduce the performance reported in the paper, you can run the bash files in folder `scripts`.
 ```
-sh scripts/cora.sh
+sh scripts/cora_meta.sh
 ```
 
 <!--
